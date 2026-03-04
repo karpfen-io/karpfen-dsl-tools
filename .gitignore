@@ -31,5 +31,8 @@ replay_pid*
 .kotlin/
 
 # ANTLR generated files
-# src/main/java/kmeta/*.java
-!src/main/java/kmeta/KmetaParser.kt
+!src/main/java/kmeta/*.java
+!src/main/java/kmodel/*.java
+!src/main/java/kstates/*.java
+
+!gradle/wrapper/gradle-wrapper.jar
